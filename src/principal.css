@@ -1,0 +1,54 @@
+.caja{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+}
+.contenido{
+    grid-row: 1;
+    background-color: rgb(115, 177, 165);
+    text-align: center;
+}
+.footer{
+    grid-row: 2;
+    background-color: rgb(33, 176, 145);
+    text-align: center;
+
+}
+.titulo{
+    background-color: rgb(33, 176, 145);
+    font-size: 30px;
+    text-align: center;
+    
+}
+.navbar{
+     background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    justify-items: center;
+} 
+.lista{
+    display: flex;
+
+}
+.lista li{
+    padding-right: 50px;
+
+}
+.modals{
+    background-color: rgb(76, 90, 98);
+    
+}
+.botones {
+  display: grid; /* Turns the container into a grid */
+  grid-template-columns: 1fr 1fr; /* Creates two columns, each taking an equal fraction of the available space */
+  grid-template-rows: auto auto auto; /* Creates three rows, each sized automatically based on its content */
+  gap: 10px; /* (Optional) Adds spacing between grid items */
+  background-color: rgb(115, 177, 165);
+}
+
+.item {
+  /* Styles for your individual items within the grid */
+  border: 1px solid #000000b7;
+  padding: 10px;
+  text-align: center;
+}

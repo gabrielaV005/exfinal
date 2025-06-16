@@ -1,0 +1,41 @@
+*{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  
+}
+html{
+  box-sizing: inherit;
+  box-sizing: border-box; 
+    margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; 
+}
+ul {
+  list-style: none; 
+  padding: 0;       
+  margin: 0;        
+}
+
+li {
+  padding: 0;      
+  margin: 0;        
+}
+.navbar {
+  --bs-navbar-padding-y: 0; 
+  /* --bs-navbar-padding-x: 0; */
+  padding-top: 0 !important; 
+  padding-bottom: 0 !important; 
+}

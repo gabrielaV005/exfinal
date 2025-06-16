@@ -1,0 +1,13 @@
+.carta{
+    width: 18rem !important;
+    
+    
+}
+.PrinCartas{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    max-width: 18rem !important;
+    border-radius: 50%;
+}
